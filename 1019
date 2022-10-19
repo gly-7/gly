@@ -1,0 +1,245 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "y60TGGcIssso"
+      },
+      "source": [
+        "\n",
+        "1019 蓋希娌\n",
+        "\n",
+        "Excercise"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "x45C6ceYyD3B"
+      },
+      "source": [
+        "Excercise 1"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "9Pw6bqxLt1So"
+      },
+      "outputs": [],
+      "source": [
+        "a = 50\n",
+        "b = 10\n",
+        "if a > b:\n",
+        " print(\"Hello World\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "HLs6iejFyU-D"
+      },
+      "source": [
+        "Excercise 2"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "5Brz1cXLuVlY"
+      },
+      "outputs": [],
+      "source": [
+        "a = 50\n",
+        "b = 10\n",
+        "if a != b:\n",
+        " print(\"Hello World\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "4kAmVPieyQR3"
+      },
+      "source": [
+        "Excercise 3"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "K7uK2krsvBvA"
+      },
+      "outputs": [],
+      "source": [
+        "a = 50\n",
+        "b = 10\n",
+        "if a == b:\n",
+        "  print(\"Yes\")\n",
+        "else:\n",
+        "\n",
+        "  print(\"No\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "XXMTnN2MyYfM"
+      },
+      "source": [
+        "Excercise 4"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "background_save": true
+        },
+        "id": "jl85tK91vttX",
+        "outputId": "3bdc756f-fd72-442f-be25-ed41dce0bcfc"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "2\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = 50\n",
+        "b = 10\n",
+        "if a == b:\n",
+        "   print(\"1\")\n",
+        "elif a > b:\n",
+        "   print(\"2\")\n",
+        "else:\n",
+        "   print(\"3\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "kDhAQkwhybLq"
+      },
+      "source": [
+        "Excercise 5"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "0ZKmNVe9w4_a"
+      },
+      "outputs": [],
+      "source": [
+        "if a == b and c == d:\n",
+        "  print(\"Hello\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "smEFYX39yhpT"
+      },
+      "source": [
+        "Excercise 6"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "yGwTs3YvyprI"
+      },
+      "outputs": [],
+      "source": [
+        "if a == b or c == d:\n",
+        "  print(\"Hello\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Td0EcPCczQZl"
+      },
+      "source": [
+        "Excercise 7"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "rCsDiukEzS-z"
+      },
+      "outputs": [],
+      "source": [
+        "if 5 > 2:\n",
+        " print(\"Five is greater than two!\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Xo4CKu0v0Sn3"
+      },
+      "source": [
+        "Excercise 8"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "cobGz2VT0Vmd"
+      },
+      "outputs": [],
+      "source": [
+        "if 5 > 2: print(\"Five is greater than two!\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bsRRH7an1MH4"
+      },
+      "source": [
+        "Excercise 9"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "ZYrO1B8S1V97"
+      },
+      "outputs": [],
+      "source": [
+        "print(\"Yes\") if 5 > 2 else print(\"No\")"
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPu+4KLGWhWGvYhvciptkE6"
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
